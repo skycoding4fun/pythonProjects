@@ -1,0 +1,548 @@
+{
+    "uuid": "d478d35f-77d0-4641-a972-6cb804ee411e",
+    "displayName": "Evolution_JT$_part_duex",
+    "templateUuid": "d11e6144-4cde-4bcf-83a3-c08d9a8c8339",
+    "actions": [
+        {
+            "actionUuid": "b11e72da65e64b8fbde1cf958579e8f5",
+            "actionKey": "Sequence",
+            "args": {
+                "sequence": {
+                    "actions": [
+                        {
+                            "actionUuid": "28244bf11fc94580a2e645a22ae0ff96",
+                            "actionKey": "Sequence",
+                            "args": {
+                                "sequence": {
+                                    "actions": [
+                                        {
+                                            "actionUuid": "b2f08d2e56364617985ffd297fda8ce3",
+                                            "actionKey": "GotoWaypoint",
+                                            "args": {
+                                                "gotoWaypoint": {
+                                                    "waypoint": {
+                                                        "xy": {
+                                                            "x": 37.7000712,
+                                                            "y": -121.70329339999999,
+                                                            "frame": "GPS"
+                                                        },
+                                                        "z": {
+                                                            "value": 15.808706,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "heading": {
+                                                            "value": -2.5604622,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "gimbalPitch": {
+                                                            "value": 1.0215
+                                                        }
+                                                    },
+                                                    "motionArgs": {
+                                                        "traversalArgs": {
+                                                            "speed": 5.0,
+                                                            "heightMode": "GRADUAL"
+                                                        },
+                                                        "lookAtArgs": {
+                                                            "headingMode": "GRADUAL",
+                                                            "gimbalPitchMode": "GRADUAL"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "actionUuid": "cc06f0b0acac4c4e87a235c3b0b3b870",
+                                            "actionKey": "TakePhoto",
+                                            "args": {
+                                                "takePhoto": {
+                                                    "photoType": {
+                                                        "eoPhoto": true
+                                                    }
+                                                },
+                                                "isSkippable": true
+                                            }
+                                        },
+                                        {
+                                            "actionUuid": "523b648b4ed14f4a919dc5ed532ffd09",
+                                            "actionKey": "SetObstacleAvoidance",
+                                            "args": {
+                                                "setObstacleAvoidance": {
+                                                    "oaSetting": "DEFAULT"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "name": "wp1"
+                                }
+                            }
+                        },
+                        {
+                            "actionUuid": "4316f55c8c534cfc82997029ba17cf16",
+                            "actionKey": "Sequence",
+                            "args": {
+                                "sequence": {
+                                    "actions": [
+                                        {
+                                            "actionUuid": "4f126d358a6840a786c4f17dcccd60cb",
+                                            "actionKey": "GotoWaypoint",
+                                            "args": {
+                                                "gotoWaypoint": {
+                                                    "waypoint": {
+                                                        "xy": {
+                                                            "x": 37.6999748,
+                                                            "y": -121.703322,
+                                                            "frame": "GPS"
+                                                        },
+                                                        "z": {
+                                                            "value": 2.83626,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "heading": {
+                                                            "value": -1.6446656,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "gimbalPitch": {
+                                                            "value": 0.20550063
+                                                        }
+                                                    },
+                                                    "motionArgs": {
+                                                        "traversalArgs": {
+                                                            "speed": 5.0,
+                                                            "heightMode": "GRADUAL"
+                                                        },
+                                                        "lookAtArgs": {
+                                                            "headingMode": "GRADUAL",
+                                                            "gimbalPitchMode": "GRADUAL"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "actionUuid": "438f18d9c8604a11a6a6103574aeeceb",
+                                            "actionKey": "SetObstacleAvoidance",
+                                            "args": {
+                                                "setObstacleAvoidance": {
+                                                    "oaSetting": "DEFAULT"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "name": "wp2"
+                                }
+                            }
+                        },
+                        {
+                            "actionUuid": "1eab9cbd50ea4731a03aeb8103032cc5",
+                            "actionKey": "Sequence",
+                            "args": {
+                                "sequence": {
+                                    "actions": [
+                                        {
+                                            "actionUuid": "f4a2eb1580c3418fbb3929172b5946b2",
+                                            "actionKey": "GotoWaypoint",
+                                            "args": {
+                                                "gotoWaypoint": {
+                                                    "waypoint": {
+                                                        "xy": {
+                                                            "x": 37.6998238,
+                                                            "y": -121.703487,
+                                                            "frame": "GPS"
+                                                        },
+                                                        "z": {
+                                                            "value": 1.7404892,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "heading": {
+                                                            "value": 1.4757715,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "gimbalPitch": {
+                                                            "value": -0.0070857313
+                                                        }
+                                                    },
+                                                    "motionArgs": {
+                                                        "traversalArgs": {
+                                                            "speed": 5.0,
+                                                            "heightMode": "GRADUAL"
+                                                        },
+                                                        "lookAtArgs": {
+                                                            "headingMode": "GRADUAL",
+                                                            "gimbalPitchMode": "GRADUAL"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "actionUuid": "b818caed066f41d489a08070f41986fe",
+                                            "actionKey": "SetObstacleAvoidance",
+                                            "args": {
+                                                "setObstacleAvoidance": {
+                                                    "oaSetting": "DEFAULT"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "name": "wp3"
+                                }
+                            }
+                        },
+                        {
+                            "actionUuid": "564e6c26cc794cb0bb6486d1d1588b30",
+                            "actionKey": "Sequence",
+                            "args": {
+                                "sequence": {
+                                    "actions": [
+                                        {
+                                            "actionUuid": "199edef3ccff4466bb7418a90ab60cc0",
+                                            "actionKey": "GotoWaypoint",
+                                            "args": {
+                                                "gotoWaypoint": {
+                                                    "waypoint": {
+                                                        "xy": {
+                                                            "x": 37.7000336,
+                                                            "y": -121.7032395,
+                                                            "frame": "GPS"
+                                                        },
+                                                        "z": {
+                                                            "value": 11.940175,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "heading": {
+                                                            "value": -3.119582,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "gimbalPitch": {
+                                                            "value": 0.4805
+                                                        }
+                                                    },
+                                                    "motionArgs": {
+                                                        "traversalArgs": {
+                                                            "speed": 5.0,
+                                                            "heightMode": "GRADUAL"
+                                                        },
+                                                        "lookAtArgs": {
+                                                            "headingMode": "GRADUAL",
+                                                            "gimbalPitchMode": "GRADUAL"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "actionUuid": "4d90463193ff46c7b714228ca4184c13",
+                                            "actionKey": "SetObstacleAvoidance",
+                                            "args": {
+                                                "setObstacleAvoidance": {
+                                                    "oaSetting": "DEFAULT"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "name": "Return waypoint 4"
+                                }
+                            }
+                        },
+                        {
+                            "actionUuid": "71a3f1d9a6304759a0f551e2d840f6d9",
+                            "actionKey": "Sequence",
+                            "args": {
+                                "sequence": {
+                                    "actions": [
+                                        {
+                                            "actionUuid": "26f23ceed96d485c91a2dc0030130f94",
+                                            "actionKey": "GotoWaypoint",
+                                            "args": {
+                                                "gotoWaypoint": {
+                                                    "waypoint": {
+                                                        "xy": {
+                                                            "x": 37.6998086,
+                                                            "y": -121.70318189999999,
+                                                            "frame": "GPS"
+                                                        },
+                                                        "z": {
+                                                            "value": 11.90832,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "heading": {
+                                                            "value": 1.8565519,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "gimbalPitch": {
+                                                            "value": 0.62383145
+                                                        }
+                                                    },
+                                                    "motionArgs": {
+                                                        "traversalArgs": {
+                                                            "speed": 5.0,
+                                                            "heightMode": "GRADUAL"
+                                                        },
+                                                        "lookAtArgs": {
+                                                            "headingMode": "GRADUAL",
+                                                            "gimbalPitchMode": "GRADUAL"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "actionUuid": "1b3fc719aa5e466183a5eb91482f1490",
+                                            "actionKey": "SetObstacleAvoidance",
+                                            "args": {
+                                                "setObstacleAvoidance": {
+                                                    "oaSetting": "DEFAULT"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "name": "Return waypoint 5"
+                                }
+                            }
+                        },
+                        {
+                            "actionUuid": "9d1da595b2ed4eab8b97abe4a43e1b85",
+                            "actionKey": "Sequence",
+                            "args": {
+                                "sequence": {
+                                    "actions": [
+                                        {
+                                            "actionUuid": "589ac49785f34537b2d2802fa4f0c1dd",
+                                            "actionKey": "GotoWaypoint",
+                                            "args": {
+                                                "gotoWaypoint": {
+                                                    "waypoint": {
+                                                        "xy": {
+                                                            "x": 37.699731799999995,
+                                                            "y": -121.7035968,
+                                                            "frame": "GPS"
+                                                        },
+                                                        "z": {
+                                                            "value": 11.921988,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "heading": {
+                                                            "value": 2.5653272,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "gimbalPitch": {
+                                                            "value": 0.75551385
+                                                        }
+                                                    },
+                                                    "motionArgs": {
+                                                        "traversalArgs": {
+                                                            "speed": 5.0,
+                                                            "heightMode": "GRADUAL"
+                                                        },
+                                                        "lookAtArgs": {
+                                                            "headingMode": "GRADUAL",
+                                                            "gimbalPitchMode": "GRADUAL"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "actionUuid": "7b8196797ce34355bbdc9d737474fe87",
+                                            "actionKey": "SetObstacleAvoidance",
+                                            "args": {
+                                                "setObstacleAvoidance": {
+                                                    "oaSetting": "DEFAULT"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "name": "Return waypoint 6"
+                                }
+                            }
+                        },
+                        {
+                            "actionUuid": "753f27cb6a61453093f0716dcd7b7dcf",
+                            "actionKey": "Sequence",
+                            "args": {
+                                "sequence": {
+                                    "actions": [
+                                        {
+                                            "actionUuid": "ff5fd12ba509457e9400109f0ef5d4ec",
+                                            "actionKey": "GotoWaypoint",
+                                            "args": {
+                                                "gotoWaypoint": {
+                                                    "waypoint": {
+                                                        "xy": {
+                                                            "x": 37.6996645,
+                                                            "y": -121.7036342,
+                                                            "frame": "GPS"
+                                                        },
+                                                        "z": {
+                                                            "value": 3.937025,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "heading": {
+                                                            "value": 2.9226854,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "gimbalPitch": {
+                                                            "value": 0.29050002
+                                                        }
+                                                    },
+                                                    "motionArgs": {
+                                                        "traversalArgs": {
+                                                            "speed": 5.0,
+                                                            "heightMode": "GRADUAL"
+                                                        },
+                                                        "lookAtArgs": {
+                                                            "headingMode": "GRADUAL",
+                                                            "gimbalPitchMode": "GRADUAL"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "actionUuid": "1a5d74ddacbc4517ba5c399930f40afc",
+                                            "actionKey": "SetObstacleAvoidance",
+                                            "args": {
+                                                "setObstacleAvoidance": {
+                                                    "oaSetting": "DEFAULT"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "name": "Return waypoint 7"
+                                }
+                            }
+                        },
+                        {
+                            "actionUuid": "f7e2994aa9304512abbea4bda71a9a05",
+                            "actionKey": "Sequence",
+                            "args": {
+                                "sequence": {
+                                    "actions": [
+                                        {
+                                            "actionUuid": "f939c56241144b9a846d7c0867f1ad45",
+                                            "actionKey": "GotoWaypoint",
+                                            "args": {
+                                                "gotoWaypoint": {
+                                                    "waypoint": {
+                                                        "xy": {
+                                                            "x": 37.6996244,
+                                                            "y": -121.70363979999999,
+                                                            "frame": "GPS"
+                                                        },
+                                                        "z": {
+                                                            "value": 3.956677,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "heading": {
+                                                            "value": 2.9051778,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "gimbalPitch": {
+                                                            "value": 0.94271284
+                                                        }
+                                                    },
+                                                    "motionArgs": {
+                                                        "traversalArgs": {
+                                                            "speed": 5.0,
+                                                            "heightMode": "GRADUAL"
+                                                        },
+                                                        "lookAtArgs": {
+                                                            "headingMode": "GRADUAL",
+                                                            "gimbalPitchMode": "GRADUAL"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "actionUuid": "073b25173b684fbba185f9a4f0fe2d7d",
+                                            "actionKey": "SetObstacleAvoidance",
+                                            "args": {
+                                                "setObstacleAvoidance": {
+                                                    "oaSetting": "DEFAULT"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "name": "Return waypoint 8"
+                                }
+                            }
+                        },
+                        {
+                            "actionUuid": "2c46f9013c5b43f79ee2cacb1d7c55d7",
+                            "actionKey": "Sequence",
+                            "args": {
+                                "sequence": {
+                                    "actions": [
+                                        {
+                                            "actionUuid": "42b04f532e254a288a29b979e3660c8a",
+                                            "actionKey": "GotoWaypoint",
+                                            "args": {
+                                                "gotoWaypoint": {
+                                                    "waypoint": {
+                                                        "xy": {
+                                                            "x": 37.6996244,
+                                                            "y": -121.7036402,
+                                                            "frame": "GPS"
+                                                        },
+                                                        "z": {
+                                                            "value": 3.9435863,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "heading": {
+                                                            "value": 2.904788,
+                                                            "frame": "NAV"
+                                                        },
+                                                        "gimbalPitch": {
+                                                            "value": 0.942739
+                                                        }
+                                                    },
+                                                    "motionArgs": {
+                                                        "traversalArgs": {
+                                                            "speed": 5.0,
+                                                            "heightMode": "GRADUAL"
+                                                        },
+                                                        "lookAtArgs": {
+                                                            "headingMode": "GRADUAL",
+                                                            "gimbalPitchMode": "GRADUAL"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "actionUuid": "091507f3de004f59976480cbb0c458ad",
+                                            "actionKey": "SetObstacleAvoidance",
+                                            "args": {
+                                                "setObstacleAvoidance": {
+                                                    "oaSetting": "DEFAULT"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "name": "Return waypoint 9"
+                                }
+                            }
+                        }
+                    ],
+                    "name": "root_sequence"
+                }
+            }
+        }
+    ],
+    "postMissionAction": "DIRECT_RETURN_AND_LAND_AT_DOCK",
+    "lostConnectionAction": "CONTINUE",
+    "postFailureAction": "LAND_AT_DOCK",
+    "dockMission": true,
+    "autoStart": true,
+    "showSkipUi": true,
+    "expectedGpsOrigin": {
+        "lat": 37.699627440561514,
+        "lon": -121.70362652224043,
+        "gpsAltitude": 179.20779418945312,
+        "gpsHeading": -0.22644261916610198
+    },
+    "recordingMode": "VIDEO_4K_30FPS",
+    "autonomousAbortMissionOnFailedAction": true
+}
